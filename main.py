@@ -9,13 +9,13 @@ end = 1200
 step = 100
 
 def main():
-    root = tk.Tk()
-    root.title('Autocad Helper')
-    root.geometry('{}x{}'.format(800, 600))
-    MainApp(root)
+    root = Tk()
+    root.geometry("300x200+300+300")
+    App = MainApp()
     root.mainloop()
      
-main()
+if __name__ == '__main__':
+    main()
 
     
 
