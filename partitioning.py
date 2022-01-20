@@ -23,6 +23,7 @@ def search(x, y, minWidthInterval, even = True):
     for width in minWidthIntervalList:
         solution = simulateDoors(x, y, width, even)
         optimSolution = getBestRatio(solution, optimSolution)
+    print(optimSolution)
     return optimSolution
 
 def getBestRatio(solution, currentOptimSolution):
@@ -39,7 +40,7 @@ def makeInterval(start, end, step):
     index = start
 
     while index < end+step:
-        possibleWidth.append(i)
+        possibleWidth.append(index)
         index += step
 
     return possibleWidth

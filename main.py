@@ -1,5 +1,4 @@
-#divider
-from tkinter import *
+import tkinter as tk
 from gui_classes import *
 
 x = 5319
@@ -10,8 +9,9 @@ end = 1200
 step = 100
 
 def main():
-
-    root = Tk()
+    root = tk.Tk()
+    root.title('Autocad Helper')
+    root.geometry('{}x{}'.format(800, 600))
     MainApp(root)
     root.mainloop()
      
