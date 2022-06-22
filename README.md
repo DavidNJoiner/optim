@@ -1,4 +1,4 @@
-# OptimRepo
+# Optim
 
 Just a repo to store some python tools I'm occasionally using.
 
