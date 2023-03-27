@@ -1,4 +1,4 @@
-# WIP Optimisation tools
+# WIP Optimization tools
 
 Just a repo to store some python tools I'm occasionally using.
 
