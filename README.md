@@ -2,7 +2,7 @@
 
 Just a repo to store some python tools I'm occasionally using.
 
-##Partitioning:
+## Partitioning:
 
 Takes two walls of lengths A and B as well as a unit's door width. 
 
