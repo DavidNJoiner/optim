@@ -2,11 +2,9 @@
 
 Just a repo to store some python tools I'm occasionally using.
 
-Partitioning:
+##Partitioning:
 
-Takes a wall length A and B as well as a minimum 
-furniture door length to fill those length. 
+Takes two walls of lengths A and B as well as a unit's door width. 
 
-Finds the optimum door width to cover those two length 
-with a minimum difference between the door width on A and the door 
-width on B. 
+Finds the optimum door width to cover the lengths A and B
+with a minimal difference between the door widths.
